@@ -1,5 +1,24 @@
 # Assignment-5-FakeNews-Detection
 
+## **Overview**
+In this assignment, you are going to build a simple machine learning pipeline using Spark MLlib to classify news articles as FAKE or REAL based on their content. You will clean and process the text data, extract features, train a basic model, and evaluate its accuracy.
+
+---
+## Dataset File
+- **File Name**: `fake_news_sample.csv`
+- **Total Records**: 500
+- **Total Columns**: 4
+
+## Column Descriptions
+
+| Column Name | Description |
+|-------------|-------------|
+| `id`        | Unique identifier for each article. |
+| `title`     | Title of the news article. |
+| `text`      | Full text content of the article. |
+| `label`     | Ground truth label: `REAL` or `FAKE`. |
+
+---
 ## **Prerequisites**
 
 Before starting the assignment, ensure you have the following software installed and properly configured on your machine:
@@ -53,3 +72,4 @@ You can run the analysis tasks either locally or using Docker.
 3. **Verify the Outputs**:
    On your host machine, check the `output/` directory for the resulting files.
 ---
+
