@@ -29,6 +29,7 @@ Before starting the assignment, ensure you have the following software installed
      ```bash
      pip install faker
      ```
+---
 
 ## **Setup Instructions**
 
@@ -36,19 +37,12 @@ Before starting the assignment, ensure you have the following software installed
 
 You can run the analysis tasks either locally or using Docker.
 
-#### **Running with Docker **
-
-1. **Start the Spark Cluster**:
-   ```bash
-   docker-compose up -d
-   ```
-
-2. **Generate the python file**:
+1. **Generate the python file**:
    ```bash
    python data_generator.py
    ```
 
-3. **Run Your PySpark Scripts Using `spark-submit`**:
+2. **Run Your PySpark Scripts Using `spark-submit`**:
    - Once you perform all the three tasks, open a new terminal and run the following:
    ```bash
    spark-submit task1.py
@@ -56,5 +50,6 @@ You can run the analysis tasks either locally or using Docker.
    spark-submit task3.py
    ```
 
-4. **Verify the Outputs**:
+3. **Verify the Outputs**:
    On your host machine, check the `output/` directory for the resulting files.
+---
