@@ -49,7 +49,7 @@ Before starting the assignment, ensure you have the following software installed
      pip install faker
      ```
 ---
-## 🔹 Task 1: Data Loading and Preprocessing
+## 🔹 Task 1: Load & Basic Exploration
 **Objective:**  
 Load the dataset, handle missing values, and prepare the data for model training.
 
@@ -62,7 +62,7 @@ Load the dataset, handle missing values, and prepare the data for model training
 
 ---
 
-## 🔹 Task 2: Text Vectorization with TF-IDF
+## 🔹 Task 2: Text Preprocessing
 **Objective:**  
 Convert the unified text column into numerical vectors using TF-IDF.
 
@@ -74,7 +74,7 @@ Convert the unified text column into numerical vectors using TF-IDF.
 
 ---
 
-## 🔹 Task 3: Model Training and Evaluation
+## 🔹 Task 3: Feature Extraction
 **Objective:**  
 Train a Logistic Regression model and evaluate its performance.
 
@@ -86,7 +86,7 @@ Train a Logistic Regression model and evaluate its performance.
 
 ---
 
-## 🔹 Task 4: Model Comparison
+## 🔹 Task 4: Model Training
 **Objective:**  
 Train and compare multiple classifiers to evaluate performance beyond Logistic Regression.
 
@@ -101,7 +101,7 @@ Train and compare multiple classifiers to evaluate performance beyond Logistic R
 
 ---
 
-## 🔹 Task 5: Model Deployment using Streamlit
+## 🔹 Task 5: Evaluate the Model
 **Objective:**  
 Deploy the fake news detection model via a simple web interface using Streamlit.
 
